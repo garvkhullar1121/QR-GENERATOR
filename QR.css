@@ -1,0 +1,106 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    background-image: url(QRBACK4.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.first {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+.first h1 {
+    color: #3117EE;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+
+.first h2 {
+    font-size: 1.5rem;
+    color: #2DDB96;
+    margin-bottom: 1.5rem;
+}
+
+
+.button-div {
+    margin-bottom: 2rem;
+}
+
+
+.first button, .submit {
+    height: 3rem;
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.first button:hover, .submit:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+
+input {
+    height: 2.5rem;
+    width: 20rem;
+    box-shadow: 4px 4px 6px #2DDB96;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 1rem;
+    padding: 0 1rem;
+    border: 1px solid #ccc;
+}
+
+.qr-code {
+    margin-top: 2rem;
+}
+
+#input{
+    font-size: 2rem;
+}
+ 
+
+
+
+@media (max-width: 768px) {
+    .first {
+        width: 90%;
+        padding: 1rem;
+    }
+    
+    .first h1 {
+        font-size: 2rem;
+    }
+
+    .first h2 {
+        font-size: 1.2rem;
+    }
+
+    input {
+        width: 80%;
+    }
+
+    .first button, .submit {
+        width: 8rem;
+    }
+}
